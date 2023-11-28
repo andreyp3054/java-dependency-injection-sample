@@ -1,13 +1,17 @@
 package com.example.javadi2;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.javadi2.car.Car;
+import com.example.javadi2.dagger.CarComponent;
 
 import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {
-    @Inject Car car;
+    @Inject
+    Car car;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

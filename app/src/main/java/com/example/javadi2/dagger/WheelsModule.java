@@ -1,4 +1,8 @@
-package com.example.javadi2;
+package com.example.javadi2.dagger;
+
+import com.example.javadi2.car.Rims;
+import com.example.javadi2.car.Tires;
+import com.example.javadi2.car.Wheels;
 
 import dagger.Module;
 import dagger.Provides;

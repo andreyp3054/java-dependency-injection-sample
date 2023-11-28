@@ -1,4 +1,4 @@
-package com.example.javadi2;
+package com.example.javadi2.car;
 
 import android.util.Log;
 
@@ -21,6 +21,7 @@ public class Car {
         remote.setListener(this);       // Remote instance is not inside the constructor because we are passing the instance of Car which should not be passed while creating the constructor
     }
     public void drive(){
+        engine.start();
         Log.d(TAG, "driving... ");
     }
 
