@@ -6,7 +6,7 @@ import com.example.javadi2.car.Car;
 import dagger.Component;
 
 // two types of engine is not allowed
-@Component(modules = {WheelsModule.class, PetrolEngineModule.class})
+@Component(modules = {WheelsModule.class, DieselEngineModule.class})
 // gets rims, tires and wheels for the component
 public interface CarComponent {
     Car getCar();
